@@ -1,0 +1,17 @@
+LINUX COMMAND:
+
+1)pwd--->current location
+2)mkdir---->to create a directory 
+3)cd ------->move inside the directory also(cd . is present,cd .. is previous directory)
+4)touch---->to create a file
+5)vim _filename ---->to edit your file(i=insert,then else,:w to write,:q to quit a editor)
+6)cat _filename------>to view
+7)ls -a -------->to view all file with hidden file 
+8)ld ------->list all directory
+9)cd C_Test/ -------->to choose the directory
+10)rm _filename ------->to remove the file
+11)rm * ------->to delete all files
+12)rm -r _directory name ------>to delete a directory
+13)mv  filename  filename ------->to move file to another file
+14)cp  filename filename ------->to copy a file to another file
+15)mv filename foldername-------->to move a file to folder

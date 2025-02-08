@@ -1,0 +1,22 @@
+USING BASIC LINUX COMMAND IN PYTHON:
+
+import os , shutil
+
+1)create a file:------->file=open("./newfile.txt","w")
+
+2)Read the file:
+         f=open("./newfile.txt","r")
+         content=f.read()
+
+3)open and edit a file----->
+         file=open("newfile.txt","w")
+         file=.write("contents of File: Hai Hello")
+         file.close()
+
+4)Rename a File---->os.rename("oldfile.txt","newfile.txt")
+
+5)Remove the file--->os.remove("file.txt")
+
+6)Copy a file to folder---->shutil.copy("./student.txt","./folder1/")
+
+7)move a file to folder---->shutil.move("./student.txt","./folder1/")
